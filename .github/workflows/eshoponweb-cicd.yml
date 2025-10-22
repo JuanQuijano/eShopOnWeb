@@ -1,4 +1,4 @@
-name: eShopOnWeb Build and Test
+6name: eShopOnWeb Build and Test
 
 #Triggers (uncomment line below to use it)
 on: [push, workflow_dispatch]
@@ -9,7 +9,7 @@ env:
   LOCATION: eastus
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: eb76fb87-6065-4389-86b2-13fe91134e4b
-  WEBAPP-NAME: eshoponweb-webapp-jqa2211
+  WEBAPP-NAME: eshoponweb-web-demo666
 
 
 jobs:
